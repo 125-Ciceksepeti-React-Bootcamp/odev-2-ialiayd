@@ -2,7 +2,7 @@
 
 Pocial is a web application that shows random card data and lets you search around new card content.
 
-[Click to see the final result](#)
+[Click to see the final result](https://ciceksepeti-bootcamp-w3-hw2.vercel.app)
 
 ## Installation
 
