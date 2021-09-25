@@ -49,17 +49,9 @@ module.exports = {
                 ]
             },
             {
-                test: /\.js$/,
+                test: /\.(js)$/,
                 exclude: /node_modules/,
-                use: {
-                    // loader: 'babel-loader',
-                    use: ['babel-loader', 'eslint-loader'],
-                    exclude: /node_modules/,
-                    options: {
-                        presets: ['@babel/env'],
-                        plugins: ['@babel/plugin-proposal-class-properties']
-                    }
-                }
+                use: ["babel-loader", "eslint-loader"]
             }
         ]
     },
